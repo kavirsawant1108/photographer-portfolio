@@ -105,7 +105,7 @@ const PublicationDetail = () => {
 
   return (
     <motion.div
-      className="bg-black text-white min-h-screen pt-24 px-6 md:px-20"
+      className="bg-white text-black min-h-screen pt-24 px-6 md:px-20"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
@@ -146,7 +146,7 @@ const PublicationDetail = () => {
           initial={{ x: 50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
         >
-          <p className="text-gray-300 leading-relaxed whitespace-pre-line">
+          <p className="text-black leading-relaxed whitespace-pre-line">
             {data.text}
           </p>
         </motion.div>

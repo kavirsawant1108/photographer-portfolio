@@ -13,7 +13,7 @@ const images = [img1, img2, img3, img4, img5, img6];
 
 const Portfolio = ({ onImageClick }) => {
   return (
-    <div className="bg-black text-white min-h-screen pt-24">
+    <div className="bg-white text-black min-h-screen pt-24">
 
       {/* HERO */}
       <section className="px-6 md:px-20 mb-16">

@@ -1,11 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
-import photographer from "../assets/images/mohin.jpg";
+import photographer from "../assets/images/IMG_9710  1 (1).jpg";
 import studio from "../assets/images/img10.jpg";
 
 const About = () => {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-white text-black">
 
       {/* 🔥 HERO */}
       <section className="px-6 md:px-20 pt-28 pb-16">
@@ -40,12 +40,12 @@ const About = () => {
 
       {/* QUALIFICATION */}
       <p className="text-gray-400 text-sm mt-1">
-        Interior & Architectural Photographer
+        Interior & Lifestyle Photographer
       </p>
 
       {/* AWARDS */}
       <p className="text-gray-500 text-xs mt-3 max-w-xs">
-        Winner – National Photography Award 2023 <br />
+        Winner – Incredible Goa Award 2024 <br />
         Featured in Design Weekly & ArchDaily
       </p>
 
